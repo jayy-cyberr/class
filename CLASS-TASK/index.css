@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent1{
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 0.6rem;
+    margin-left: 3.7rem;
+}
+
+.parent1 p{
+    font-size: 14px;
+}
+
+.parent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 1px;
+    padding: 2rem;
+    background-color: #EFEFEF;
+    border: none;
+
+}
+
+.branchy-logo{
+    margin-left: 2.8rem;
+
+}
+
+.right2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar{
+    background-color: black;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15rem;
+}
+
+.button{
+    background-color: #2FB991;
+}
+
+
+.nav ul{
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+    background-color: black;
+   
+}
+
+.nav a{
+    color: white;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+.parent3{
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.parent3 .nav{
+    color: black;
+}
